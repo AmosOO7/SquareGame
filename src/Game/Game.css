@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#root {
+    height: 100vh; /* Ensure the root container takes up the full viewport height */
+}
+
+.player-character {
+    width: 10%;
+    perspective: 1000px; /* Perspective for 3D effect */
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+  }
+  
+  .character-head {
+    width: 5vw;
+    height: 3vh;
+    background: linear-gradient(135deg, #000, #444); /* Gradient for depth */
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transform: translateZ(10px); /* Move head forward */
+  }
+  
+  .character-body {
+    width: 10vw;
+    height: 5vh;
+    background: linear-gradient(135deg, #000, #444); /* Gradient for depth */
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transform: translateZ(5px); /* Move body slightly forward */
+  }
+  
+  /* Falling cube styles */
+  .falling-cube {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    background: linear-gradient(135deg, #242424, #b0adad); /* Color gradient */
+    border-radius: 5px;
+    animation: fall 3s linear infinite; /* Fall animation */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  }
+  
+
+.counter {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #242424;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+  
+  .controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 1%;
+    background: #f0f0f0;
+  }
+  button{
+    font-weight: 900;
+    border-radius: 10px;
+  }
+  h1{
+    font-family: Arial, sans-serif;
+    color: #242424;
+    font-style: italic;
+    margin-bottom: 30%;
+  }
+  
+/* Keyframes for falling animation */
+@keyframes fall {
+    0% {
+        top: -10%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 110%; /* Ends slightly off the screen at the bottom */
+        transform: rotate(360deg); /* Rotates as it falls */
+    }
+}
