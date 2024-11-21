@@ -16,8 +16,8 @@ html, body {
   }
   
   .character-head {
-    width: 5vw;
-    height: 3vh;
+    width: 50px;
+    height: 30px;
     background: linear-gradient(135deg, #000, #444); /* Gradient for depth */
     border-radius: 0px 0px 10px 10px;
     margin: auto;
@@ -26,8 +26,8 @@ html, body {
   }
   
   .character-body {
-    width: 10vw;
-    height: 5vh;
+    width: 100px;
+    height: 50px;
     background: linear-gradient(135deg, #000, #444); /* Gradient for depth */
     border-radius: 5px 5px 20px 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
