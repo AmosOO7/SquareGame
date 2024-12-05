@@ -1,52 +1,35 @@
-# Welcome to your Expo app 👋
+# Welcome 👋
 
-# Overview
-NewApp is a modern mobile application built with React Native and Expo. It provides seamless navigation, user authentication, and data management features, leveraging cutting-edge technologies like Firebase, Clerk, and Tailwind CSS.
+A modern, scalable, and performant web application built with React and TypeScript, designed for seamless user experience and maintainability.
+
+# Features
+-🌟 React + TypeScript: Strongly typed React components for improved code quality and developer experience.
+-📱 Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
+-⚡ Fast Performance: Optimized with best practices for speed and performance.
+-🔐 Secure: Implements modern security practices for data protection.
+-📦 Reusable Components: Modular components designed for easy reuse and customization.
 
 # Technologies Used
-- [Expo](https://expo.dev/) - Framework for building React Native apps.
-- [React Native](https://reactnative.dev/) - Framework for building mobile apps.
-- [Clerk](https://clerk.dev/) - Authentication and user management.
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
-- [React Navigatio](https://reactnavigation.org/) - Routing and navigation in React Native apps.
-- [Expo Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/) - Image selection and uploading.
-- [Formik](https://formik.org/) - Form management and validation.
-- [Firebase](https://firebase.google.com/) - Backend services, including authentication and database storage.
-- [Moment.js](https://momentjs.com/) - Date formatting and manipulation.
-- [Expo Icons](https://icons.expo.fyi/)Use vector icons in the app.
+-React – A JavaScript library for building user interfaces.
+-TypeScript – Typed superset of JavaScript, adding static type definitions.
+-JavaScript – Core scripting language for interactive web pages.
+-HTML – Markup language for structuring content on the web.
+-CSS – Stylesheet language for designing the layout and look of web pages.
 
-
-## Get started
-
+# Installation
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/AmosOO7/ShoppingApp.git
-   cd ShoppingApp
+   git clone https://github.com/AmosOO7/SquareGame.git
+   cd SquareGame
    ```
-
 2. Install dependencies:
-
    ```bash
-    npm install
+   npm install
    ```
-
-3. Start the Expo server:
-
+3. Start the development server:
    ```bash
-    npm start
+   npm run dev
    ```
 
 
-Running the App
-
-
-1. To start the app on a simulator or device:
-
-   ```bash
-    npx expo start
-   ```
-2. Open the Expo Go app and scan the QR code or run the app in an emulator.
-
-
-![10](https://github.com/user-attachments/assets/e652e711-84bc-40e5-95a6-0f58e56ed93d)
+![cube](https://github.com/user-attachments/assets/313cb117-eff2-45db-a8e8-08207c7ea07c)
